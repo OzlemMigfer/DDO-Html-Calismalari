@@ -1,0 +1,259 @@
+
+body,html{
+    position: relative;
+    margin: 0;
+    overflow: hidden;
+    background: radial-gradient(circle farthest-corner at center,rgba(58,137,180,0) 0,rgba(58,137,180,.8) 100%),#FFF;;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#anasayfa{
+    margin-top: 5%;
+    margin-left: 20%;
+    border-radius: 9px;
+    position: relative;
+}
+
+#anasayfa{
+    max-width: 900px;
+    min-height: 600px;   
+    background: white;
+    box-sizing: border-box;
+    box-shadow: 0 6.4px 8px rgb(33 78 103 / 20%);
+}
+
+#anasayfa #logo{
+    padding-left: 3%;
+    padding-top: 0.3%;
+}
+
+#anasayfa header h1{
+    background-image: url(https://cdn.e-devlet.gov.tr/themes/izmir/images/edkkds.svg);
+    background-size: 300px;
+    background-repeat: no-repeat;
+}
+
+#anasayfa #girislink{
+    padding-left: 2.5%;
+    color: rgb(90, 89, 89);
+}
+
+#anasayfa #girislink #links{
+    padding-left: 70px;
+    display: inline;
+    color:rgb(3, 141, 148)
+}
+
+#anasayfa #girislink #links1{
+    padding-left: 41px;
+    display: inline;
+    color:rgb(3, 141, 148)
+}
+
+#anasayfa #logos{
+    padding-left: 800px;
+    padding-top: 35px;
+    margin-left: 710px;
+}
+
+#anasayfa #logos{
+    display: inline;
+    background-image: url(https://cdn.e-devlet.gov.tr/themes/istanbul/images/agencies/1.png);
+    background-repeat: no-repeat;
+}
+
+#anasayfa #logo #yataycizgi{
+    border-top:1px grey ;
+}
+
+#anasayfa .cerceve{
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border-style: groove;
+}
+img{
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+#anasayfa .cerceve #sifresayfasi{
+    display: inline;
+    color: rgb(102, 101, 101);
+}
+
+#anasayfa .cerceve #sifretext{
+    padding-left: 15px;
+    padding-right: 20px;
+    font-weight: 400px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: rgb(77, 74, 74);
+}
+
+#anasayfa .cerceve #yataycizgi{
+    margin-left: 150px;
+}
+
+#anasayfa .cerceve .dikeycizgi{
+    border-left: 1px solid grey;
+    height: 49px;
+    position: absolute;
+    left: 19.5%;
+    margin-left: -3px;
+    top: 150px;
+}
+
+#anasayfa .cerceve #sifretext a{
+    display: inline-block;
+    color: rgb(43, 128, 128);
+}
+
+#anasayfa .cerceve #sifretext #yataykesiklicizgi{
+    border-top: 1px grey;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 16px;
+}
+
+#anasayfa .cerceve .formlar{
+    padding-left: 12px;
+}
+
+#anasayfa .cerceve .formlar #tcyazi{
+    padding-right: 100px;
+    color: rgb(90, 88, 88);
+}
+
+#anasayfa .cerceve .formlar #tcyazi:before{
+    content: '* ';
+    color:#347aa1;
+    font-weight: 400;
+    position: relative;
+    top: -1px;
+    margin-right: 400;
+}
+
+#anasayfa .cerceve .formlar #ftc{
+    height: 25px;
+}
+
+/* #anasayfa .cerceve .formlar .klavye .klavye1{
+    border: none;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    list-style: none;
+    text-decoration: none;
+    color: #347aa1;
+    margin-left: .5em;
+}
+
+#anasayfa .cerceve .formlar .klavye .klavye1 .klavye2{
+    box-sizing: border-box;
+    position: absolute;
+    box-shadow: 1px 1px 5px 0 #acacac;
+    top: 24px;
+    left: 5px;
+    background-color: #F1F1F1;
+    z-index: 5;
+    padding: 3px;
+    border-radius: 5px;
+} */
+
+#anasayfa .cerceve .formlar #yataykesiklicizgi{
+    border-top: 1px grey;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+#anasayfa .cerceve .formlar #fsifre{
+    height: 25px;
+}
+
+#anasayfa .cerceve .formlar #sifresi:before{
+    content: '* ';
+    color:#347aa1;
+    font-weight: 400;
+    position: relative;
+    top: -1px;
+    margin-right: 400;
+}
+
+#anasayfa .cerceve .formlar #sifresi{
+    padding-right: 95px;
+    color: rgb(90, 88, 88);
+}
+
+#anasayfa .cerceve #sifrenotu a{
+    display: inline-block;
+    color: rgb(43, 128, 128);
+}
+
+#anasayfa .cerceve #sifrenotu{
+    line-height: 20px;
+    padding-left: 220px;
+    padding-right: 20px;
+    font-weight: 400px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: rgb(77, 74, 74);
+}
+
+#anasayfa .cerceve #sifrenotu #yataykesiklicizgi{
+    border-top: 1px grey;
+    margin-left: 2px;
+    margin-right: 200px;
+    margin-top: 16px;
+}
+
+#anasayfa .cerceve #yataykesiklicizgii{
+    border-top: 1px grey;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 14px;
+}
+
+#anasayfa .cerceve #iptalbutonu{
+    width: 120px;
+    height: 36px;
+    margin-left: 300px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    font-family: sans-serif;
+    background: rgb(233, 229, 229) url(https://img.icons8.com/small/25/000000/less-than.png) no-repeat left 8px center;
+    color: rgb(107, 107, 107);
+}
+
+#anasayfa .cerceve #girisyapbutonu{
+    margin-left: 12px;
+    width: 120px;
+    height: 36px;
+    border-radius: 20px;
+    font-family:sans-serif;
+    background: #347aa1 url(https://img.icons8.com/ios/25/ffffff/more-than.png) no-repeat right 8px center;
+    color: white;
+}
+
+#anasayfa #alteki{
+    color: rgb(189, 185, 185);
+    font-size: 15px;
+    padding-left: 16px;
+    padding-top: 10px;
+}
+
+#anasayfa #alteki #sagalteki{
+    padding-left: 340px;
+    padding-right: 16px;
+    padding-top: 10px;
+    display: inline;
+    color:#347aa1;
+}
+
+#anasayfa #alteki #sagalteki #sagalteki1{
+    padding-left: 14px;
+    display: inline;
+    color:#347aa1;
+}
