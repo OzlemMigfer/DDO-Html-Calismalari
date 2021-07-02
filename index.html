@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>e-Devlet Kapısı</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="anasayfa">
+            <header id="logo">
+                <h1>.</h1>
+            </header>
+            <hr id="yataycizgi">
+            <div id="girislink">
+                Giriş Yapılacak Adres
+                <div id="links">
+                    www.turkiye.gov.tr
+                </div> <br>       
+                Giriş Yapılacak Uygulama  
+                <div id="links1">
+                    e-Devlet Kapısı
+                </div> 
+            </div>
+            <div id="logos"></div>
+
+
+            <div class="cerceve">
+                <img src="https://img.icons8.com/fluent-systems-filled/20/4a90e2/keyboard.png"/>
+                <p id="sifresayfasi">e-Devlet Şifresi</p>
+                <div class="dikeycizgi"></div>
+                <hr id="yataycizgi">
+                <div id="sifretext">T.C. Kimlik Numaranızı ve e-Devlet Şifrenizi kullanarak kimliğiniz doğrulandıktan sonra işleminize kaldığınız yerden devam edebilirsiniz. 
+                    <a open-modal="info" href="#">e-Devlet Şifresi Nedir, Nasıl Alınır?</a>
+                    <hr id="yataykesiklicizgi">
+                </div>
+                <div class="formlar">
+                    <form action="/action_page.php" method="GET">
+                        <label id="tcyazi" for="ftc">T.C. Kimlik No</label>
+                        <input type="text" id="ftc" name="tc"><br><br><br>
+                        <!-- <span class="klavye">
+                            <a href="#" class="klavye1">
+                                Sanal klavye
+                                <div class="klavye2" style="display: none;">
+                                    <div class="klavyesatir">
+                                        <div class="klavyetus">1</div>
+                                        <div class="klavyetus">2</div>
+                                        <div class="klavyetus">3</div>
+                                    </div>
+                                    <div class="klavyesatir">
+                                        <div class="klavyetus">4</div>
+                                        <div class="klavyetus">5</div>
+                                        <div class="klavyetus">6</div>
+                                    </div>
+                                    <div class="klavyesatir">
+                                        <div class="klavyetus">7</div>
+                                        <div class="klavyetus">8</div>
+                                        <div class="klavyetus">9</div>
+                                    </div>
+                                    <div class="klavyesatir">
+                                        <div class="klavyetus">0</div>
+                                        <div class="klavyetus">Sil</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </span> -->
+                    
+                        <hr id="yataykesiklicizgi">
+                        <label id="sifresi" for="fsifre">e-Devlet Şifresi</label>
+                        <input type="password" id="fsifre" name="sifre"><br><br><br>
+
+                        
+
+                    </form>  
+                </div>
+                <div id="sifrenotu">* e-Devlet 
+                    <a open-modal="info" href="#">şifrenizi unutmanız durumunda</a>
+                    doğruladığınız cep <br>telefonunuzdan yenileme işlemi yapabilirsiniz.
+                    <hr id="yataykesiklicizgi">
+                </div>
+                <hr id="yataykesiklicizgii">
+
+                <button id="iptalbutonu" type="reset" value="İptal Et">İptal Et</button>
+                <button id="girisyapbutonu" type="submit" value="Giriş Yap">Giriş Yap</button>
+            </div>
+
+            <div id="alteki">© 2021, Ankara - Tüm Hakları Saklıdır
+                <div id="sagalteki">Gizlilik ve Güvenlik
+                    <div id="sagalteki1">Hızlı Çözüm Merkezi</div>
+                </div>
+                
+            </div>
+            
+        </div> 
+    </body>
+</html>
