@@ -31,7 +31,7 @@ body,html{
     background-image: url(https://cdn.e-devlet.gov.tr/themes/izmir/images/edkkds.svg);
     background-size: 300px;
     background-repeat: no-repeat;
-}
+} 
 
 #anasayfa #girislink{
     padding-left: 2.5%;
@@ -138,29 +138,6 @@ img{
     height: 25px;
 }
 
-/* #anasayfa .cerceve .formlar .klavye .klavye1{
-    border: none;
-    margin: 0;
-    padding: 0;
-    font-weight: 400;
-    list-style: none;
-    text-decoration: none;
-    color: #347aa1;
-    margin-left: .5em;
-}
-
-#anasayfa .cerceve .formlar .klavye .klavye1 .klavye2{
-    box-sizing: border-box;
-    position: absolute;
-    box-shadow: 1px 1px 5px 0 #acacac;
-    top: 24px;
-    left: 5px;
-    background-color: #F1F1F1;
-    z-index: 5;
-    padding: 3px;
-    border-radius: 5px;
-} */
-
 #anasayfa .cerceve .formlar #yataykesiklicizgi{
     border-top: 1px grey;
     margin-left: 10px;
@@ -256,4 +233,93 @@ img{
     padding-left: 14px;
     display: inline;
     color:#347aa1;
+}
+
+#anasayfa .cerceve #sifretext #sifrenasilalinir{
+    text-decoration: none;
+}
+
+#anasayfa .cerceve .formlar #sifrenotu #sifreunutma{
+    text-decoration: none;
+}
+
+
+/*Mobil İmza*/
+#anasayfa .cerceve #mobillogo{
+    display: inline;
+    padding-left: 26px;
+}
+
+#anasayfa .cerceve #mobilsayfasi{
+    display: inline;
+    color: rgb(102, 101, 101);
+}
+
+#anasayfa .cerceve .dikeycizgimob{
+    border-left: 1px solid grey;
+    height: 49px;
+    position: absolute;
+    left: 36%;
+    margin-left: -3px;
+    top: 150px;
+}
+
+#anasayfa .cerceve #mobilimzasayfasi #yataycizgi1{
+    margin-left: 5px;
+    margin-right: 710px;
+}
+
+
+/*e-imza*/
+#anasayfa .cerceve #eimzalogo{
+    display: inline;
+    padding-left: 45px;
+}
+
+#anasayfa .cerceve #eimzasayfasi{
+    display: inline;
+    color: rgb(102, 101, 101);
+}
+
+#anasayfa .cerceve .dikeycizgiimza{
+    border-left: 1px solid grey;
+    height: 49px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 150px;
+}
+
+
+
+/*T.C. Kimlik Kartı*/
+#anasayfa .cerceve #kimliklogo{
+    display: inline;
+    padding-left: 55px;
+}
+
+#anasayfa .cerceve #kimliksayfasi{
+    display: inline;
+    color: rgb(102, 101, 101);
+}
+
+#anasayfa .cerceve .dikeycizgikim{
+    border-left: 1px solid grey;
+    height: 49px;
+    position: absolute;
+    left: 70%;
+    margin-left: -3px;
+    top: 150px;
+}
+
+
+/*İnternet Bankacılığı*/
+#anasayfa .cerceve #internetlogo{
+    display: inline;
+    padding-left: 50px;
+}
+
+#anasayfa .cerceve #internetsayfasi{
+    display: inline;
+    color: rgb(102, 101, 101);
 }
