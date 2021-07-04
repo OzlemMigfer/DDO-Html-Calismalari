@@ -1,3 +1,11 @@
+<!--
+    MERHABA ABDULLAH,
+    E-İMZA VS. ÜSTÜNE BASINCA GİZLENME OLAYINI YAPTIM AMA 2.BİR 
+    SAYFAYA BİR ŞEY EKLEYİP 1.SAYFADAN GİZLEYİNCE
+    KONUM OLARAK DA YERİNİ KORUYOR VE BU SEBEPLE 1.SAYFA KAYIYOR.
+    JS İLE GİZLENME OLAYINI YAPTIM.ELİMDEN BU KADARI GELEBİLDİ 
+    ÇÜNKÜ HALEN JS VİDEOLARINI İZLİYORUM, BİTİREMEDİM.
+-->
 <!DOCTYPE html>
 <html lang="tr">
     <head>
@@ -17,7 +25,7 @@
                 <div id="links">
                     www.turkiye.gov.tr
                 </div> <br>       
-                Giriş Yapılacak Uygulama  
+                    Giriş Yapılacak Uygulama  
                 <div id="links1">
                     e-Devlet Kapısı
                 </div> 
@@ -26,71 +34,114 @@
 
 
             <div class="cerceve">
-                <img src="https://img.icons8.com/fluent-systems-filled/20/4a90e2/keyboard.png"/>
-                <p id="sifresayfasi">e-Devlet Şifresi</p>
-                <div class="dikeycizgi"></div>
-                <hr id="yataycizgi">
-                <div id="sifretext">T.C. Kimlik Numaranızı ve e-Devlet Şifrenizi kullanarak kimliğiniz doğrulandıktan sonra işleminize kaldığınız yerden devam edebilirsiniz. 
-                    <a open-modal="info" href="#">e-Devlet Şifresi Nedir, Nasıl Alınır?</a>
-                    <hr id="yataykesiklicizgi">
-                </div>
-                <div class="formlar">
-                    <form action="/action_page.php" method="GET">
-                        <label id="tcyazi" for="ftc">T.C. Kimlik No</label>
-                        <input type="text" id="ftc" name="tc"><br><br><br>
-                        <!-- <span class="klavye">
-                            <a href="#" class="klavye1">
-                                Sanal klavye
-                                <div class="klavye2" style="display: none;">
-                                    <div class="klavyesatir">
-                                        <div class="klavyetus">1</div>
-                                        <div class="klavyetus">2</div>
-                                        <div class="klavyetus">3</div>
-                                    </div>
-                                    <div class="klavyesatir">
-                                        <div class="klavyetus">4</div>
-                                        <div class="klavyetus">5</div>
-                                        <div class="klavyetus">6</div>
-                                    </div>
-                                    <div class="klavyesatir">
-                                        <div class="klavyetus">7</div>
-                                        <div class="klavyetus">8</div>
-                                        <div class="klavyetus">9</div>
-                                    </div>
-                                    <div class="klavyesatir">
-                                        <div class="klavyetus">0</div>
-                                        <div class="klavyetus">Sil</div>
-                                    </div>
-                                </div>
-                            </a>
-                        </span> -->
+                <main>
+                    <img src="https://img.icons8.com/fluent-systems-filled/20/4a90e2/keyboard.png"/>
+                    <p onclick="myFunction()" id="sifresayfasi">e-Devlet Şifresi</p>
+                    <div class="dikeycizgi"></div>
+
+                    <img id="mobillogo" src="https://img.icons8.com/pastel-glyph/20/4a90e2/medical-mobile-app.png"/>
+                    <p onclick="functionMobil()" id="mobilsayfasi">Mobil İmza</p>
+                    <div class="dikeycizgimob"></div>
+
+                    <img id="eimzalogo" src="https://img.icons8.com/ios-filled/20/4a90e2/usb-memory-stick.png"/>
+                    <p onclick="functionImza()" id="eimzasayfasi">e-İmza</p>
+                    <div class="dikeycizgiimza"></div>
+
+                    <img id="kimliklogo" src="https://img.icons8.com/dotty/25/4a90e2/identity-theft.png"/>
+                    <p onclick="functionKimlik()" id="kimliksayfasi">T.C. Kimlik Kartı</p>
+                    <div class="dikeycizgikim"></div>
+
+                    <img id="internetlogo" src="https://img.icons8.com/ios/20/4a90e2/internet-browser--v1.png"/>
+                    <p onclick="functionInternet()" id="internetsayfasi">İnternet Bankacılığı</p>
+
+
+                    <section style="visibility:hidden" id="mobilimzasayfasi">
+                        <hr id="yataycizgi1">
+                        <p>şlkjhgffjkl</p>
+                    </section>
+
                     
-                        <hr id="yataykesiklicizgi">
-                        <label id="sifresi" for="fsifre">e-Devlet Şifresi</label>
-                        <input type="password" id="fsifre" name="sifre"><br><br><br>
+                    <section id="edevletsifresisayfasi">
+                        <script>
+                            function myFunction() {
+                              document.getElementById("mobilimzasayfasi").style.visibility=hidden;
+                            }
+                        </script>
 
-                        
+                        <hr id="yataycizgi">
+                        <div id="sifretext">T.C. Kimlik Numaranızı ve e-Devlet Şifrenizi kullanarak kimliğiniz doğrulandıktan sonra işleminize kaldığınız yerden devam edebilirsiniz. 
+                            <a id="sifrenasilalinir" open-modal="info" href="#">e-Devlet Şifresi Nedir, Nasıl Alınır?</a>
+                            <hr id="yataykesiklicizgi">
+                        </div>
+                        <div class="formlar">
+                            <form action="/action_page.php" method="GET">
+                                <label id="tcyazi" for="ftc">T.C. Kimlik No</label>
+                                <input type="text" id="ftc" name="tc" required><br><br><br>
+                                <hr id="yataykesiklicizgi">
+                                <label id="sifresi" for="fsifre">e-Devlet Şifresi</label>
+                                <input type="password" id="fsifre" name="sifre" required><br><br><br>
+                                <div id="sifrenotu">* e-Devlet 
+                                    <a id="sifreunutma"open-modal="info" href="#">şifrenizi unutmanız durumunda</a>
+                                    doğruladığınız cep <br>telefonunuzdan yenileme işlemi yapabilirsiniz.
+                                    <hr id="yataykesiklicizgi">
+                                </div>
+                                <hr id="yataykesiklicizgii">
+                                <button id="iptalbutonu" type="reset" value="İptal Et">İptal Et</button>
+                                <button id="girisyapbutonu" type="submit" value="Giriş Yap">Giriş Yap</button>
+                            </form>  
+                        </div>
+                    </section>
 
-                    </form>  
-                </div>
-                <div id="sifrenotu">* e-Devlet 
-                    <a open-modal="info" href="#">şifrenizi unutmanız durumunda</a>
-                    doğruladığınız cep <br>telefonunuzdan yenileme işlemi yapabilirsiniz.
-                    <hr id="yataykesiklicizgi">
-                </div>
-                <hr id="yataykesiklicizgii">
 
-                <button id="iptalbutonu" type="reset" value="İptal Et">İptal Et</button>
-                <button id="girisyapbutonu" type="submit" value="Giriş Yap">Giriş Yap</button>
+                    <script>
+                        function functionMobil(){
+                            var x=document.getElementById('mobilimzasayfasi');
+                            if(x.style.visibility==='visible'){
+                                x.style.visibility='visible';
+                            }else{
+                                x.style.visibility='visible';
+                            } 
+
+                            var x=document.getElementById('edevletsifresisayfasi');
+                            if(x.style.visibility==='hidden'){
+                                x.style.visibility='hidden';
+                            }else{
+                                x.style.visibility='hidden';
+                            }
+
+                            var x=document.getElementById('eimzasayfasiii');
+                            if(x.style.visibility==='hidden'){
+                                x.style.visibility='hidden';
+                            }else{
+                                x.style.visibility='hidden';
+                            }
+                        }
+                        function myFunction(){
+                            var x=document.getElementById('edevletsifresisayfasi');
+                            if(x.style.visibility==='visible'){
+                                x.style.visibility='visible';
+                            }else{
+                                x.style.visibility='visible';
+                            }
+                            var x=document.getElementById('mobilimzasayfasi');
+                            if(x.style.visibility==='hidden'){
+                                x.style.visibility='hidden';
+                            }else{
+                                x.style.visibility='hidden';
+                            }
+                        } 
+                    </script>
+                </main> 
             </div>
 
-            <div id="alteki">© 2021, Ankara - Tüm Hakları Saklıdır
-                <div id="sagalteki">Gizlilik ve Güvenlik
-                    <div id="sagalteki1">Hızlı Çözüm Merkezi</div>
+
+            <footer class="footerkismi">
+                <div id="alteki">© 2021, Ankara - Tüm Hakları Saklıdır
+                    <div id="sagalteki">Gizlilik ve Güvenlik
+                        <div id="sagalteki1">Hızlı Çözüm Merkezi</div>
+                    </div> 
                 </div>
-                
-            </div>
-            
+            </footer>  
         </div> 
     </body>
 </html>
